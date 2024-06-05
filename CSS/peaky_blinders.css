@@ -686,9 +686,15 @@ header nav .form i {
   gap: 30px;
 }
 .pricing .plans .plan {
-  background-color: #f4f4f4;
+  background-color: #fcfcfc;
   text-align: center;
-
+  /* box-shadow: 0 0 13px -3px #A7A7A7; */
+  border-radius: 8px;
+  border: 1px solid #6c8e90;
+  transition: 0.4s;
+}
+.pricing .plans .plan:hover {
+  box-shadow: 0 0 15px 2px #d1d1d1;
 }
 .pricing .plans .plan .head {
   padding: 40px 20px;
